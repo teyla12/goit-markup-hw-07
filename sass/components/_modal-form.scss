@@ -136,7 +136,7 @@ textarea::placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: calc(14px / 12px);
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
@@ -154,7 +154,7 @@ textarea::placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: calc (24 / 14);
+  line-height: calc(24px / 14px);
   letter-spacing: 0.03em;
 
   color: #757575;

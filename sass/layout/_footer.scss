@@ -16,12 +16,14 @@
 }
 
 .footer-items {
+  @extend %reset-list;
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
 
 .logo-footer {
+  @extend %reset-link;
   margin-bottom: 20px;
 }
 
