@@ -294,7 +294,7 @@ img {
   margin-bottom: 20px;
 }
 
-.register-form-lable {
+.register-form-label {
   display: block;
   text-align: left;
   margin-bottom: 5px;
@@ -560,13 +560,6 @@ textarea::placeholder {
   margin-right: 50px;
 }
 
-.header__email:hover,
-.header__email:focus,
-.header__phone:hover,
-.header__phone:focus {
-  color: var(--acent-txt-cl);
-}
-
 .header__email,
 .header__phone {
   display: -webkit-box;
@@ -591,6 +584,11 @@ textarea::placeholder {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
+}
+.header__email:hover, .header__email:focus,
+.header__phone:hover,
+.header__phone:focus {
+  color: var(--acent-txt-cl);
 }
 
 .contacts-item {
